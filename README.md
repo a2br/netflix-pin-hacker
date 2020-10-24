@@ -1,3 +1,5 @@
+```Do not use these programs for malicious purposes, but for educational goals on accounts you have access to.```
+
 # netflix-pin-hacker
 Punch the Netflix PIN code your parents use to restrict your access. The following scripts have been tested on the [Netflix Desktop](https://www.microsoft.com/fr-fr/p/netflix/9wzdncrfj3tj) Windows native app, and the default delays have been set after it.
 
