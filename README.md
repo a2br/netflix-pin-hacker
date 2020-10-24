@@ -1,5 +1,5 @@
 # netflix-pin-hacker
-Get the Netflix PIN code your parents use to restrict your access (or anything else, by the way). The following scripts have been tested on the [Netflix Desktop](https://www.microsoft.com/fr-fr/p/netflix/9wzdncrfj3tj) native app.
+Get the Netflix PIN code your parents use to restrict your access. The following scripts have been tested on the [Netflix Desktop](https://www.microsoft.com/fr-fr/p/netflix/9wzdncrfj3tj) native app, and the default delays have been set after it.
 
 ## How to use these scripts
 ### Pre-requirements
@@ -8,10 +8,10 @@ You will need to have Python installed as well as the [`keyboard` package](https
 ### Step-by-step
 #### 1. Open Netflix
 Open the Netflix native app and select a protected content. Play it. A prompt should appear.
-#### 2. Open a script
+#### 2. Open one of the scripts
 Open the script you want (eg, miner.py). It has to be opened with the admin rights. On Windows: `Win+R`, write `cmd`, press `Ctrl+Maj+Enter` and log in as an admin. Navigate to the right directory. Put the app on one side of the screen and your terminal on another, so you can see both.
 #### 3. Launch it
-Run it with `py ./path/to/your/miner.py`, or anything else really. You can skip the inputs and press `Enter` all the way to the end, or adjust the settings as they come. When the blue text appears in the CLI, select the PIN field on the Netflix app. When you're ready, press `Maj` and let it start its thing. Make sure the numbers aren't poping in the CLI faster than Netflix gets them. When Netflix unlocks, watch the range of numbers that hacked it, and start again with a thinner amount of number (eg, 1200-1250), so you can determine what is the code for further use.
+Run it with `py ./path/to/your/miner.py`, or anything else. You can skip the inputs and press `Enter` all the way to the end, or adjust the settings as they come. When the blue text appears in the CLI, select the PIN field on the Netflix app. When you're ready, press `Maj` and let it start its thing. Make sure the numbers aren't poping in the CLI faster than Netflix gets them. When Netflix unlocks, watch the range of numbers that hacked it, and start again with a thinner amount of number (eg, 1200-1250), so you can determine what is the code for further use. Note: some sad terminals don't really like the beautiful ASCII colors that come with the scripts' CLIs.
 #### 4. Enjoy
 Enjoy your movie and star this repo. You're welcome, keep your money.
 
