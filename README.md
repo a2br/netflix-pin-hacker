@@ -1,5 +1,5 @@
 # netflix-pin-hacker
-Get the Netflix PIN code your parents use to restrict your access. The following scripts have been tested on the [Netflix Desktop](https://www.microsoft.com/fr-fr/p/netflix/9wzdncrfj3tj) native app, and the default delays have been set after it.
+Punch the Netflix PIN code your parents use to restrict your access. The following scripts have been tested on the [Netflix Desktop](https://www.microsoft.com/fr-fr/p/netflix/9wzdncrfj3tj) Windows native app, and the default delays have been set after it.
 
 ## How to use these scripts
 ### Pre-requirements
