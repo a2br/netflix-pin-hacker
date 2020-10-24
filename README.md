@@ -18,7 +18,7 @@ Enjoy your movie and star this repo. You're welcome, keep your money.
 
 ## Scripts
 ### miner.py
-This one will try all the combinations in a range you precised. You can select the speed of typing and the how long it has to pause between each code it types. All formats of PIN codes are supported, from `1` to `00000001` and beyond, in case you want to use it elsewhere. This parameter is determined in function of the length of the string you filled in the `End at:` input.
+This one will type all the combinations in a range you precised. You can select the speed of typing and the how long it has to pause between each code it types. All formats of PIN codes are supported, from `1` to `00000001` and beyond, in case you want to use it elsewhere. This parameter is determined in function of the length of the string you filled in the `End at:` input.
 
-### Others
-Other scripts are coming for smarter and faster hacks.
+### day.py
+`day.py` will try all the combinations of days and months (hi, 31/02) to get all the dates that exist (and, for simplicity reasons, it includes those that do not exist). There are 372 of them. Since dates are very commonly used as PINs, this script could speed up your search by 96%... or slow it down by 4%.
