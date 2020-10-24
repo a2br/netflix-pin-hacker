@@ -1,6 +1,8 @@
 ```
 Do not use these programs for malicious purposes, but for educational goals on accounts you have access to.
-You can protect yourself from bruteforce with long passwords, but you cannot with PIN codes, except by the establishment by the platform of a delay in the event of repeated errors, which is not the case here. Fortunately, the stake isn't very big here.
+You can protect yourself from bruteforce with long passwords, but you cannot with PIN codes, except by the 
+establishment by the platform of a delay in the event of repeated errors, which is not the case here. 
+Fortunately, the stake isn't very big here.
 ```
 
 # netflix-pin-hacker
