@@ -16,12 +16,6 @@ class Colors:
     UNDERLINE = '\033[4m'
 
 
-# Formats
-formats = {
-    1: "DD/MM",
-    2: "MM/DD"
-}
-
 print(f"{Colors.HEADER}Day{Colors.ENDC} # This mode tries every date of the year in the defined format")
 
 
@@ -72,5 +66,5 @@ test_days(date_format)
 # CONCLUDES
 endsAt = time.time()
 elapsed_time = endsAt - startsAt
-print(f"{Colors.OKBLUE}[DONE] All dates of the year ({formats[date_format]}) tested in {round(elapsed_time)} seconds "
+print(f"{Colors.OKBLUE}[DONE] All dates of the year ({({1: 'DD/MM',2: 'MM/DD'})[date_format]}) tested in {round(elapsed_time)} seconds "
       f"({round(elapsed_time / 60, 2)} minutes){Colors.ENDC}")
