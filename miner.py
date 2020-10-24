@@ -33,7 +33,7 @@ if (playing_time != abs(playing_time)) or (start != abs(start)) or (end != abs(e
 print(f"{Colors.OKGREEN}Code format is {code_length} digits long{Colors.ENDC}: "
       f"{str(start).zfill(code_length)} ~ {str(end - 1).zfill(code_length)}")
 
-time_between_each_keystroke = float(input("| Time between each keystroke: (0.06) ") or "0.06")
+time_between_each_keystroke = float(input("| Time between each keystroke: (0.08) ") or "0.08")
 time_between_each_code = float(input("| Time between each code: (0.12) ") or "0.12")
 estimated_time = ((time_between_each_keystroke * code_length) * playing_time) + (time_between_each_code * playing_time)\
                  + playing_time * 0.03  # This value may change
